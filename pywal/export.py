@@ -73,6 +73,7 @@ def flatten_colors(colors):
 def get_export_type(export_type):
     """Convert template type to the right filename."""
     return {
+        "alacritty": "colors-alacritty.yml",
         "css": "colors.css",
         "dmenu": "colors-wal-dmenu.h",
         "dwm": "colors-wal-dwm.h",
